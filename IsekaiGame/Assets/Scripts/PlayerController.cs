@@ -6,8 +6,6 @@ public class PlayerController : MonoBehaviour
 {   
     public Rigidbody2D rb;
     public float moveSpeed = 3f;
-    private bool interact;
-    private bool nearDoor;
 
     Vector2 movement;
 
@@ -17,7 +15,6 @@ public class PlayerController : MonoBehaviour
         // Get inputs
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        interact = Input.GetKeyDown(KeyCode.Space);
     }
 
     private void FixedUpdate()
