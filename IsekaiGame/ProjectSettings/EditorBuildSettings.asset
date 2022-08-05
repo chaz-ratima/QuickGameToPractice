@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/InHouse.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/OutsideHouse.unity
+    guid: c42fe54fff1f3514a96d93b90b4e9891
+  - enabled: 1
+    path: Assets/Scenes/FantasyWorld.unity
+    guid: 35809785febdd4141a6636d09154ef3f
   m_configObjects: {}
